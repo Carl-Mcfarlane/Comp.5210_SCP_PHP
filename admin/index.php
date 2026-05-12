@@ -25,7 +25,6 @@ $scps = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <ul>
                     <li><a href="../index.php">Home</a></li>
                     <li><a href="index.php" class="active">Admin Panel</a></li>
-                    <li><a href="create.php">Add New SCP</a></li>
                 </ul>
             </nav>
         </div>
