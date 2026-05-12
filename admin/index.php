@@ -72,6 +72,8 @@ $scps = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <?php endforeach; ?>
                     </tbody>
                 </table>
+                <!-- Add new SCP button -->
+                <a href="create.php" class="btn" style="margin-bottom: 1rem; display: inline-block;">+ Add New SCP</a>
             </section>
         </article>
     </main>
